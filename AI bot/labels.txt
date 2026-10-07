@@ -1,0 +1,11 @@
+0 Konstale
+1 PESY
+2 Modertransy
+3 Bombardiery
+4 Solarisy
+5 Protramy
+6 Siemensy
+7 Duewagi
+8 Tatry
+9 Skody
+10 Stadlery
