@@ -13,15 +13,11 @@ async def on_ready():
     
     if channel:
         await channel.send(
-            f'Cześć, jestem {bot.user}!\n')
-        
-#@bot.command()
-#async def hello(ctx):
-   # await ctx.send(f'Cześć! Jestem {bot.user}!')
-
-#@bot.command()
-#async def heh(ctx, count_heh = 5):
-    #await ctx.send("he" * count_heh)
+            f'Cześć👋, jestem {bot.user}!\n'
+            'PL Jeśli chcesz sklasyfikować jakiś model tramwaju🚋 to wyślij mi jego zdjęcie i napisz $check. '
+            'A jeżeli chcesz zapisać jakiś obraz🌅 to wyślij go📨 i napisz $save. '
+            'EN If you want to classify a tram model🚋, send me its photo and type $check. ' 
+            'And if you want to save an image🌅, send it📨 and type $save.')
 
 @bot.command()
 async def save(ctx):
